@@ -23,9 +23,7 @@ pkg update && pkg upgrade -y
 pkg install python python-pip git -y
 
 # تثبيت المشروع
-git clone https://github.com/yourusername/telethon-session
-cd telethon-session
-
+git clone https://github.com/uuf3f/Extracting-the-Telethon-session-string
 # تثبيت المتطلبات
 pip install -r requirements.txt
 
@@ -38,7 +36,7 @@ python main.py
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/yourusername/telethon-session
+git clone https://github.com/uuf3f/Extracting-the-Telethon-session-string-code
 cd telethon-session
 pip3 install -r requirements.txt
 python3 main.py
